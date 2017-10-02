@@ -1,4 +1,6 @@
 class ProductList extends React.Component {
+  // no need of componentWillMount() as constructor will always work in place of it
+  // and initializing state we can set it as direct this.state = {state: dodo: ''}
   state = {
     products: []
   }
